@@ -8,7 +8,7 @@ def line(katz_deli)
       katz_deli.insert(-2, " #{number} ")
       number += 1
     end
-    puts "The line is currently:" + katz_deli[].join
+    puts "The line is currently:" + katz_deli[0..-1].join
 
   end
 end
