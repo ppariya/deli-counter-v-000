@@ -4,6 +4,7 @@ def line(katz_deli)
     puts "The line is currently empty."
   else
     number = 1
+    katz_deli[]
     katz_deli.each do |name|
       katz_deli.insert(-2, " " + number + " ")
       number += 1
