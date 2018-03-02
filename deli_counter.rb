@@ -6,7 +6,7 @@ def line(katz_deli)
     number = 1
     katz_deli[]
     katz_deli.each do |name|
-      katz_deli.insert(-2, " " + number + " ")
+      katz_deli.insert(-2, " #{number} ")
       number += 1
     end
     puts "The line is currently:" + katz_deli[].join
